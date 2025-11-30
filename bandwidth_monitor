@@ -1,0 +1,4 @@
+# Configuration for the OpenWRT Bandwidth Monitor
+
+# Bandwidth alert threshold in bytes (e.g., 1073741824 for 1GB)
+ALERT_THRESHOLD=1073741824
