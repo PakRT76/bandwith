@@ -15,7 +15,7 @@ A comprehensive bandwidth monitoring and management tool for OpenWRT routers.
 
 1.  **Clone the repository:**
     ```
-    git clone https://github.com/your-username/openwrt-bandwidth-monitor.git
+    git clone https://github.com/PakRT76/bandwith.git
     ```
 2.  **Copy the project to your router:**
     ```
