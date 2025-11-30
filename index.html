@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenWRT Bandwidth Monitor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OpenWRT Bandwidth Monitor</h1>
+        <nav>
+            <a href="#" id="dashboard-link" class="active">Dashboard</a>
+            <a href="#" id="users-link">User Management</a>
+            <a href="#" id="reports-link">Reports</a>
+        </nav>
+        <main>
+            <div id="dashboard" class="page">
+                <h2>Dashboard</h2>
+                <div id="real-time-chart"></div>
+            </div>
+            <div id="users" class="page" style="display: none;">
+                <h2>User Management</h2>
+                <table id="user-table">
+                    <thead>
+                        <tr>
+                            <th>IP Address</th>
+                            <th>MAC Address</th>
+                            <th>Download</th>
+                            <th>Upload</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div id="reports" class="page" style="display: none;">
+                <h2>Reports</h2>
+                <div id="reports-chart"></div>
+            </div>
+        </main>
+    </div>
+    <script src="echarts.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
